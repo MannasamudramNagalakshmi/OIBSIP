@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #ecf0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 25rem;
+    height: 30rem;
+    background-color: #ecf0f3;
+    border-radius: 25px;
+    box-shadow: 15px 15px 20px #cbced1,-15px -15px 20px #ffffff;
+}
+.output{
+    width: 100%;
+    height: 20%;
+    border-radius: 25px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    color: #5a84a2;
+    padding: 8px;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: inset 13px 13px 15px #cbced1, inset -13px -13px 15px #ffffff;
+
+}
+.output .prev_output{
+    font-size: 16px;
+    color:orange;
+}
+.calciKeys{
+    width:100%;
+    height: 80%;
+    text-align: center;
+}
+.calciKeys div{
+    width: 100%;
+    height: 20%;
+}
+.calciKeys div button{
+    position: relative;
+    width:16%;
+    height: 76%;
+    border-radius: 50%;
+    margin:11px;
+    box-shadow: 7px 7px 11px #cbced1, -7px -7px 11px #ffffff;
+    border: none;
+    outline: none;
+    background-color: #ecf0f3;
+    text-align: center;
+    font-size: 19px;
+}
+.calciKeys div button:hover{
+    background-color: rgba(204,204,204,0.3);
+}
+.calciKeys div button:active{
+    position: relative;
+    width:16%;
+    height: 76%;
+    border-radius: 50%;
+    margin:11px;
+    box-shadow:inset 7px 7px 11px #cbced1,inset -7px -7px 11px #ffffff;
+    border: none;
+    outline: none;
+    background-color: #ecf0f3;
+    text-align: center;
+    font-size: 19px;
+}
+.calciKeys div .specialKeys{
+    color:#ff652f;
+    font-weight: 600;
+}
+.calciKeys div .opeKeys{
+    color: #1E90FF;
+    font-weight: 600;
+}
